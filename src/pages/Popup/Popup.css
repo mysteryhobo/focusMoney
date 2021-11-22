@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+  color: #3A6EA5;
+}
+
+.itemImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.itemImage {
+  margin: 24px;
+  margin-top: 12px;
+  max-width: 60%;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceContainer button {
+  font-size: 30px;
+}
+
+.priceText {
+  font-size: 30px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.App {
+  min-width: 600px;
+  margin: 24px;
+}
+
+.icon {
+  /* position: 'absolute', */
+  width: 100px!important;
+  height: 100px!important;
+  /* fill: 'black',
+  opacity: 0.5,
+  right: 5,
+  top: 5, */
+}
+
+.barCompleted {
+  background-color: lightblue;
+  width: 80%;
+}
+
+.buttonGroup {
+  width: 100%;
+}
+
+/* button {
+  font-size: 30px!important;
+} */
