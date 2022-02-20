@@ -7,7 +7,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
+  max-width: 60%;
 }
 
 .itemImage {
@@ -18,11 +18,19 @@ h1 {
 
 .priceContainer {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  margin-top: 12px;
+  min-width: 250px;
 }
 
 .priceContainer button {
-  font-size: 30px;
+  /* font-size: 20px; */
+  margin-top: 12px;
+}
+
+.main {
+  display: flex;
 }
 
 .priceText {
@@ -32,8 +40,12 @@ h1 {
 }
 
 .App {
-  min-width: 600px;
+  min-width: 740px;
   margin: 24px;
+}
+
+.addButton {
+  flex-grow: 1;
 }
 
 .icon {
@@ -52,7 +64,7 @@ h1 {
 }
 
 .buttonGroup {
-  width: 100%;
+  min-width: 100%;
 }
 
 /* button {
